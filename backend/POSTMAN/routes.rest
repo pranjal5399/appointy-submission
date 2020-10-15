@@ -1,15 +1,12 @@
-#GET ALL articles
-
+#GET ALL ARTICLES
 GET http://localhost:8080/articles?page=2
 
 ###
-#GET ONE articles
-
+#GET ONE ARTICLE
 GET http://localhost:8080/articles/1
 
 ###
-#ADD A COASTER
-
+#ADD A ARTICLE
 POST http://localhost:8080/articles
 Content-Type: application/json
 
@@ -20,5 +17,5 @@ Content-Type: application/json
 }
 
 ###
-#SEARCH implementation
-GET http://localhost:8080/articles/search?q=sdsgrg
+#SEARCH IMPLEMENTATION
+GET http://localhost:8080/articles/search?q=ps4

@@ -1,0 +1,24 @@
+#GET ALL articles
+
+GET http://localhost:8080/articles?page=2
+
+###
+#GET ONE articles
+
+GET http://localhost:8080/articles/1
+
+###
+#ADD A COASTER
+
+POST http://localhost:8080/articles
+Content-Type: application/json
+
+{
+    "title": "XYZ",
+    "subtitle": "tata",
+    "content": "Ranaghat Siliguri"
+}
+
+###
+#SEARCH implementation
+GET http://localhost:8080/articles/search?q=sdsgrg

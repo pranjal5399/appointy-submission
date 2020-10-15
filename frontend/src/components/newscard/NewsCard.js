@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     maxWidth: "100vw",
+    height:"70vh"
   },
   title: {
     padding: '5px 16px',
